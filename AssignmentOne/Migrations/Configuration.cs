@@ -5,7 +5,7 @@ namespace AssignmentOne.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<AssignmentOne.Models.AssignmentOneContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<AssignmentOne.Models.TeacherContext>
     {
         public Configuration()
         {
@@ -13,7 +13,7 @@ namespace AssignmentOne.Migrations
             ContextKey = "AssignmentOne.Models.AssignmentOneContext";
         }
 
-        protected override void Seed(AssignmentOne.Models.AssignmentOneContext context)
+        protected override void Seed(AssignmentOne.Models.TeacherContext context)
         {
             //  This method will be called after migrating to the latest version.
 
